@@ -29,10 +29,18 @@ const rendererContent = {
         />
     ),
     3: (
-        <h1>3</h1>
+        <InfoBox 
+            text = {"Here are a few projects I worked on!"}
+            link={"/projects"}
+            btnText={"Learn more"}
+        />
     ),
     4: (
-        <h1>4</h1>
+        <InfoBox 
+            text = {"Hi you can connect with me!"}
+            link={"/contact"}
+            btnText={"Contact"}
+        />
     )
 }
 
