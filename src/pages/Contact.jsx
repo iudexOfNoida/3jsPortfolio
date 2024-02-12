@@ -51,7 +51,7 @@ const Contact = () => {
   const handleFocus = () => setCurrentAction('walk')
   const handleBlur = () => setCurrentAction('idle')
   return (
-    <section className="relative flex lg:flex-row flex-col max-container h-[100vh" >
+    <section className="relative flex lg:flex-row flex-col max-container" >
 
       { alert.show && <Alert {...alert}/> }
 
